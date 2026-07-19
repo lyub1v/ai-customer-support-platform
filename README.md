@@ -3,15 +3,15 @@
 ## About
 
 AI Customer Support Platform helps companies automate customer support using AI-powered knowledge retrieval.
-The platform allows companies to build an AI assistant based on their internal knowledge base.
+The future versions of the platform will allow companies to build an AI assistant based on their internal knowledge base.
 
 In future versions the project will include:
-FastAPI
-PostgreSQL
-Docker
-OpenAI API
-Qdrant
-LangGraph
+- FastAPI
+- PostgreSQL
+- Docker
+- OpenAI API
+- Qdrant
+- LangGraph
 
 ## Business Problem
 
@@ -21,14 +21,28 @@ This platform automates routine responses and helps reduce support workload whil
 
 ## Current Version
 
-Current version: v0.1
+Current version: v0.2
 
 Current status:
 
-- Project initialization
-- Python Core completed
+- Python CLI application
+- CRUD operations for FAQs
+- JSON data persistence
+- Input validation
+- Error handling
+- Separated storage logic into a dedicated module
 
-Features
+## Features
+
+- Add new FAQs
+- Display all FAQs
+- Search FAQS by question
+- Delete FAQs
+- Store data in JSON format
+- Load saved FAQs when the application starts
+- Validate user input
+- Handle incorrect user input with exceptions
+- Separate storage logic into a dedicated module ('storage.py') 
 
 
 
@@ -38,8 +52,8 @@ Features
 ## Roadmap
 
 - [x] Project initialization
-- [ ] FAQ Manager
-- [ ] JSON Storage
+- [x] FAQ Manager
+- [x] JSON Storage
 - [ ] FastAPI
 - [ ] PostgreSQL
 - [ ] AI Integration
